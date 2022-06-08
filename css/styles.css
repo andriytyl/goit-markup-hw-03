@@ -459,6 +459,7 @@ color: #757575;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+  
     
 }
 .section-li:not(:last-childss) {margin-right: 30px;}
@@ -466,13 +467,20 @@ color: #757575;
     color: #ffff;
 }
 
-.section-li :hover {
+.section-li :hover { 
     background-color: #2196F3;
     cursor: pointer;
+    border: 1px solid #2196F3;
+        border-radius: 5px;
 }
 .section-li { 
 }
+.section-li {
+   
+}
+
 .section-butn:hover{color: #FFFFFF;}
+
 
 .section-butn {
     
@@ -501,7 +509,7 @@ flex-wrap: wrap;
 margin: -15px;
 
 }
-.section-li:not(:last-child) {margin-right: 30px;}
+.section-li:not(:last-child) {margin-right: 8px;}
 
 .galeriphoto {margin-left: 30px;
 margin-right: 30px;}
