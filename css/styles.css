@@ -470,10 +470,13 @@ color: #757575;
 .section-li :hover { 
     background-color: #2196F3;
     cursor: pointer;
-    border: 1px solid #2196F3;
-        border-radius: 5px;
+ 
 }
-.section-li { 
+
+.section-li { border: none;
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+    
 }
 .section-li {
    
